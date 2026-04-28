@@ -1,0 +1,183 @@
+{
+  "personal": {
+    "name": "Irfan Sofyan Bin Zufri",
+    "phone": "+6584826784",
+    "email": "irfansofyan2001@gmail.com",
+    "linkedin": "https://linkedin.com/in/irfan-sofyan-548908369",
+    "github": "https://github.com/efunzz"
+  },
+  "education": [
+    {
+      "institution": "University of London (UOL), Singapore Institute of Management",
+      "degree": "Bachelor of Science in Computer Science",
+      "period": "Oct 2022 — Jan 2026"
+    },
+    {
+      "institution": "Muhammadiyah Islamic College",
+      "degree": "Diploma in Islamic Studies",
+      "period": "Jan 2025 — Present"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Mobile React Native Developer",
+      "company": "Hiddentao Labs",
+      "period": "Dec 2025 — Mar 2026",
+      "tags": ["technical", "mobile", "devops", "ci-cd"],
+      "bullets": [
+        "Implemented CI/CD pipelines using GitHub Actions and Fastlane, automating iOS and Android builds and distributing test builds via Firebase App Distribution — replacing a fully manual build-and-release process.",
+        "Led cross-platform mobile development using React Native and Expo, delivering production-ready components across iOS and Android.",
+        "Implemented automated code quality checks with linting, type checking, and pre-commit hooks across the development workflow."
+      ]
+    },
+    {
+      "role": "Repair Technician",
+      "company": "Pronto Arigato",
+      "period": "Jul 2025 — Oct 2025",
+      "tags": ["non-technical", "hardware", "customer-service"],
+      "bullets": [
+        "Diagnosed and repaired laptops and desktops (Windows, MacBook, iMac).",
+        "Assisted customers by explaining technical issues and solutions clearly in a professional manner.",
+        "Ensured positive customer experiences by maintaining patience and clear communication during service interactions."
+      ]
+    },
+    {
+      "role": "Frontend Developer Intern",
+      "company": "RiverValley Irregulars",
+      "period": "Jan 2025 — Apr 2025",
+      "tags": ["technical", "frontend", "ui"],
+      "bullets": [
+        "Designed and prototyped responsive UI components in Figma and Angular, contributing to form implementation and layout improvements.",
+        "Created wireframes and mockups with Figma and implemented them using StackBlitz.",
+        "Collaborated with developers to align UI designs with existing codebase standards and improve implementation feasibility."
+      ]
+    },
+    {
+      "role": "Frontend Developer Intern",
+      "company": "El Pando",
+      "period": "Nov 2024 — Dec 2024",
+      "tags": ["technical", "frontend", "documentation"],
+      "bullets": [
+        "Assisted developers in the final stages of a client project, focusing on data migration and validation for deployment.",
+        "Helped update and maintain technical documentation to support system handover to the client (ITE)."
+      ]
+    },
+    {
+      "role": "Activity Crew",
+      "company": "Superpark Singapore",
+      "period": "Jun 2022 — Apr 2024",
+      "tags": ["non-technical", "customer-service", "operations"],
+      "bullets": [
+        "Assisted guests at activity stations and ensured a safe, enjoyable experience.",
+        "Handled front-desk duties such as greeting guests, selling tickets, and processing transactions.",
+        "Responded to customer queries in a friendly and professional manner."
+      ]
+    },
+    {
+      "role": "Sales Executive",
+      "company": "SG Fire Safety",
+      "period": "Dec 2021 — Apr 2022",
+      "tags": ["non-technical", "sales", "customer-service"],
+      "bullets": [
+        "Engaged directly with customers through door-to-door sales, building rapport and trust.",
+        "Explained product features and safety benefits clearly to meet customer needs.",
+        "Developed strong communication and interpersonal skills through daily public interaction."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "HifdhTrack — Quran Memorisation App",
+      "tech": "React Native, Expo, TypeScript, MMKV",
+      "period": "Jan 2026 — Present",
+      "tags": ["technical", "mobile", "app-store"],
+      "note": "First published App Store release",
+      "bullets": [
+        "Built and published a Quran memorisation tracker to the App Store — first independently shipped mobile app.",
+        "Implemented a Mushaf reader using QCF V2 per-page fonts with per-surah progress tracking and block-based memorisation flow.",
+        "Built MMKV-based local storage with custom React hooks for type-safe offline-first state management."
+      ]
+    },
+    {
+      "name": "Miko — AI-Powered Telegram Bot",
+      "tech": "TypeScript, Bun, Claude API, GitHub API, Brave Search API",
+      "period": "Mar 2026 — Present",
+      "tags": ["technical", "ai", "backend", "api-integration"],
+      "bullets": [
+        "Built Telegram bot integrating Claude AI for automated GitHub repo analysis, market research, and job preparation workflows.",
+        "Implemented smart intent routing that classifies natural language messages and delegates to specialized command handlers.",
+        "Orchestrated parallel API calls across Claude API, GitHub API, and Brave Search API for real-time data enrichment."
+      ]
+    },
+    {
+      "name": "ReadySG — Emergency Preparedness App",
+      "tech": "React Native, Expo, Supabase",
+      "period": "Jul 2025 — Sep 2025",
+      "tags": ["technical", "mobile", "fullstack", "gamification"],
+      "bullets": [
+        "Built a disaster preparedness mobile app targeting Singapore residents aged 18-39, featuring scenario-based simulations for flash floods and earthquakes.",
+        "Implemented gamified learning with missions, achievement badges, and progress tracking using Supabase for authentication and data persistence.",
+        "Designed interactive emergency kit builder with checklists, category organisation, and completion tracking."
+      ]
+    },
+    {
+      "name": "Tito — Time Tracking App",
+      "tech": "React Native, Expo, Supabase",
+      "period": "Oct 2025 — Dec 2025",
+      "tags": ["technical", "mobile", "fullstack"],
+      "bullets": [
+        "Built time tracking app for hourly workers with clock-in/out, break tracking, and automated wage calculation.",
+        "Integrated Supabase and REST endpoints for data persistence and authentication."
+      ]
+    },
+    {
+      "name": "Flipzi — Flashcard Study App",
+      "tech": "React Native, Expo, OpenAI API",
+      "period": "Apr 2025 — Sep 2025",
+      "tags": ["technical", "mobile", "ai"],
+      "bullets": [
+        "Built flashcard app with spaced repetition and confidence-based review scheduling.",
+        "Integrated OpenAI API for AI-assisted deck generation from topic descriptions."
+      ]
+    },
+    {
+      "name": "Financial Dashboard",
+      "tech": "Angular, PrimeNG, TypeScript",
+      "period": "Jan 2025",
+      "tags": ["technical", "frontend", "angular"],
+      "bullets": [
+        "Built a financial dashboard using Angular and the PrimeNG component library, featuring data visualisation and tabular financial reporting."
+      ]
+    },
+    {
+      "name": "Cinemood — Mood-Based Movie Discovery",
+      "tech": "React, OMDb API, TMDb API",
+      "period": "Apr 2026",
+      "tags": ["technical", "frontend", "api-integration"],
+      "bullets": [
+        "Built a React web app that recommends movies based on the user's selected mood.",
+        "Integrated OMDb API for movie details and TMDb API for YouTube trailers using IMDb ID lookup."
+      ]
+    },
+    {
+      "name": "Starrymnl — Frontend Website",
+      "tech": "React, Chakra UI, Tailwind CSS",
+      "period": "Apr 2026",
+      "tags": ["technical", "frontend", "ui"],
+      "bullets": [
+        "Built a responsive React website with Chakra UI and Tailwind CSS, featuring carousel sliders and page navigation via React Router."
+      ]
+    }
+  ],
+  "skills": {
+    "languages_programming": ["TypeScript", "JavaScript", "Python", "SQL"],
+    "languages_spoken": ["English", "Malay"],
+    "mobile": ["React Native", "Expo"],
+    "frontend": ["React", "Angular", "Chakra UI", "Tailwind CSS", "PrimeNG"],
+    "infrastructure": ["GitHub Actions", "Fastlane", "Firebase"],
+    "databases": ["PostgreSQL", "Supabase", "GraphQL"],
+    "ai_apis": ["Claude API", "OpenAI API", "GitHub API", "Brave Search API", "OMDb API", "TMDb API"],
+    "tools": ["Figma", "Microsoft Office", "Excel", "Canva"],
+    "hardware": ["Windows", "macOS", "laptop/desktop repair"]
+  }
+}
