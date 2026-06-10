@@ -17,7 +17,7 @@ if (!jobDescription) {
   process.exit(1);
 }
 
-const masterResume = JSON.parse(fs.readFileSync(path.join(__dirname, 'master-resume.json'), 'utf8'));
+const masterResume = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'master-resume.json'), 'utf8'));
 
 function boldToHtml(text) {
   return text.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
@@ -186,8 +186,8 @@ Return ONLY valid JSON in this exact shape, no explanation:
   const html = generateHtml(tailored);
 
   const slug = jobDescription.slice(0, 60).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-  const htmlPath = path.join(__dirname, `resume-${slug}.html`);
-  const pdfPath = path.join(__dirname, `resume-${slug}.pdf`);
+  const htmlPath = path.join(__dirname, '..', 'output', `resume-${slug}.html`);
+  const pdfPath = path.join(__dirname, '..', 'output', `resume-${slug}.pdf`);
 
   fs.writeFileSync(htmlPath, html);
 

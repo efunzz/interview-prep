@@ -10,8 +10,8 @@ if (!jobName) {
 }
 
 const slug = jobName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const templatePath = path.resolve(__dirname, 'resume-template.html');
-const outputPath = path.resolve(__dirname, `resume-${slug}.pdf`);
+const templatePath = path.resolve(__dirname, '..', 'templates', 'resume-template.html');
+const outputPath = path.resolve(__dirname, '..', 'output', `resume-${slug}.pdf`);
 
 (async () => {
   const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });

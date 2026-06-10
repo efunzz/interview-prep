@@ -3,6 +3,7 @@
     "name": "Irfan Sofyan Bin Zufri",
     "phone": "+6584826784",
     "email": "irfansofyan2001@gmail.com",
+    "portfolio": "https://sofyan.co",
     "linkedin": "https://linkedin.com/in/irfan-sofyan-548908369",
     "github": "https://github.com/efunzz"
   },
@@ -68,9 +69,10 @@
       "period": "Jun 2022 — Apr 2024",
       "tags": ["non-technical", "customer-service", "operations"],
       "bullets": [
-        "Assisted guests at activity stations and ensured a safe, enjoyable experience.",
-        "Handled front-desk duties such as greeting guests, selling tickets, and processing transactions.",
-        "Responded to customer queries in a friendly and professional manner."
+        "Managed crowd flow and queue throughput during peak weekends, school holidays, and large group bookings, keeping wait times down and stations safely utilised.",
+        "Performed daily stock and equipment checks across activity stations, flagging shortages and ensuring readiness before each shift.",
+        "Handled opening and closing duties including station setup, end-of-day reconciliation, and handover briefings to incoming shifts.",
+        "Operated front-desk duties — greeting guests, ticketing, processing transactions, and resolving customer queries on the spot."
       ]
     },
     {
@@ -92,6 +94,7 @@
       "period": "Jan 2026 — Present",
       "tags": ["technical", "mobile", "app-store"],
       "note": "First published App Store release",
+      "link": "https://apps.apple.com/app/hifdhtrack-quran-tracker/id6763332267",
       "bullets": [
         "Built and published a Quran memorisation tracker to the App Store — first independently shipped mobile app.",
         "Implemented a Mushaf reader using QCF V2 per-page fonts with per-surah progress tracking and block-based memorisation flow.",
